@@ -21,7 +21,7 @@ public class UserAuditing implements AuditorAware<String>
     public Optional<String> getCurrentAuditor()
     {
         String uname;
-        uname = "llama";
+        uname = "SYSTEM";
         return Optional.of(uname);
     }
 }
